@@ -1,40 +1,42 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
-    coderay (1.1.2)
-    css_parser (1.7.0)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    coderay (1.1.3)
+    css_parser (1.9.0)
       addressable
-    diff-lcs (1.3)
-    json (2.2.0)
-    method_source (0.9.2)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.4)
-      mini_portile2 (~> 2.4.0)
-    pry (0.12.2)
-      coderay (~> 1.1.0)
-      method_source (~> 0.9.0)
-    public_suffix (3.1.1)
-    rspec (3.8.0)
-      rspec-core (~> 3.8.0)
-      rspec-expectations (~> 3.8.0)
-      rspec-mocks (~> 3.8.0)
-    rspec-core (3.8.2)
-      rspec-support (~> 3.8.0)
-    rspec-expectations (3.8.4)
+    diff-lcs (1.4.4)
+    json (2.5.1)
+    method_source (1.0.0)
+    nokogiri (1.11.1-x86_64-darwin)
+      racc (~> 1.4)
+    pry (0.14.0)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.6)
+    racc (1.5.2)
+    rexml (3.2.4)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-mocks (3.8.1)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.8.0)
-    rspec-support (3.8.2)
-    w3c_validators (1.3.4)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.2)
+    w3c_validators (1.3.6)
       json (>= 1.8)
       nokogiri (~> 1.6)
+      rexml (~> 3.2)
 
 PLATFORMS
-  ruby
+  x86_64-darwin-19
 
 DEPENDENCIES
   css_parser
@@ -44,4 +46,4 @@ DEPENDENCIES
   w3c_validators
 
 BUNDLED WITH
-   2.0.1
+   2.2.11
